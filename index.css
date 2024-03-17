@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cardlayout{
+    @apply bg-gray-100 bg-white shadow-lg rounded-2xl overflow-hidden;
+}
+#root{
+    max-width: 100%;
+    padding: 0;
+    text-align:left;
+}
